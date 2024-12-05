@@ -23,7 +23,7 @@ const CopyASCII: React.FC<CopyASCIIProps> = ({ fckAscii }) => {
   return (
     <button
       onClick={handleCopy}
-      className="p-10 bg-transparent flex flex-col items-center hover:bg-blue-400 rounded-2xl"
+      className="p-10 bg-transparent text-nowrap flex flex-col items-center hover:bg-blue-400 rounded-2xl"
     >
       ╭ᥥ╮ ( \ ╭╮ / )╭ᥥ╮
       <span className="pl-3 pt-5 text-lg">{copied ? "Copied!" : "Copy"}</span>
