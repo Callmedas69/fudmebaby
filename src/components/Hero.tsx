@@ -94,7 +94,7 @@ const Hero = () => {
                 />
               </Link>
             </motion.div>
-
+            {/* 
             <motion.div
               className="box"
               whileHover={{ scale: 1.3 }}
@@ -110,7 +110,7 @@ const Hero = () => {
                   className="rounded-full shadow-md items-center m-2 ml-3"
                 />
               </Link>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>
